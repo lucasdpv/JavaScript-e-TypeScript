@@ -1,0 +1,16 @@
+/**
+ * Não podemos criar constantes com palavras reservadas
+ * Variáveis precisam ter nomes significativos
+ * Não pode começar o nome de uma variável com um número
+ * Não podem conter espaços ou traços
+ * Utilizamos camelCase
+ * Case-sensitive
+ * Não podemos redeclarar variáveis com let
+ * Não utilize VAR, utilize let 
+ */
+
+
+let nome = "Lucas";
+
+console.log(nome, "nasceu em 1992");
+console.log(`${nome} nasceu em 1992`);
